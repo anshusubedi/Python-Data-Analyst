@@ -1,0 +1,77 @@
+Question 1:
+You are analyzing a column of sales numbers.
+Write a Python if-else block that checks a number sale = 1500 and prints:
+
+    "High Sale" if it's more than 1000
+
+    "Low Sale" if it's 1000 or less
+
+
+sales = [1200, 1500, 200, 300, 600, 1600, 2000]
+
+for item in sales:
+    if item > 1000:
+        print("High Sale")
+    else:
+        print("Low Sale")
+
+
+Question 2:
+Write a program that takes a sale value and:
+
+    Prints "Low" if it’s less than 500
+
+    Prints "Medium" if it’s between 500 and 1500 (inclusive)
+
+    Prints "High" if it’s more than 1500
+
+
+sale = 1200
+
+if sale < 500:
+    print("Low")
+elif sale <= 1500:
+    print("Medium")
+else:
+    print("High")
+
+
+Question 3:
+You’re building a simple tool to classify customer satisfaction based on a score they enter.
+
+Write a program that:
+
+    Asks the user to enter a satisfaction score (between 1 and 5)
+
+    Then prints:
+
+        "Very Dissatisfied" for 1
+
+        "Dissatisfied" for 2
+
+        "Neutral" for 3
+
+        "Satisfied" for 4
+
+        "Very Satisfied" for 5
+
+# Ask the user for input
+rating = int(input("Enter a satisfaction rating (1 to 5): "))
+
+# Use if-elif-else to classify the rating
+if rating == 1:
+    print("Very Dissatisfied")
+elif rating == 2:
+    print("Dissatisfied")
+elif rating == 3:
+    print("Neutral")
+elif rating == 4:
+    print("Satisfied")
+elif rating == 5:
+    print("Very Satisfied")
+else:
+    print("Invalid rating")
+
+
+
+
